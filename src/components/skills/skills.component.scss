@@ -1,0 +1,35 @@
+#skills-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 5em 0;
+
+    h2 {
+        align-self: center;
+        font-weight: 500;
+    }
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4em 3em 3em;
+    gap: 2rem 0;
+}
+
+.skill {
+    text-align: center;
+    i.fab {
+        font-size: 5em;
+        margin-bottom: 0.3em;
+    }
+
+    .skill-name {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+}

@@ -1,0 +1,50 @@
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+#about-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-info {
+    h2 {
+        font-weight: 500;
+    }
+}
+
+.portfolio-img {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.image-container {
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.lead {
+    text-align: justify;
+}

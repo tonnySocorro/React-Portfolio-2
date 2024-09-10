@@ -1,0 +1,17 @@
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+
+    h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 3rem;
+    }
+}
+
+#embeddedmap-canvas img {
+    max-height: none;
+    max-width: none !important;
+    background: none !important;
+}

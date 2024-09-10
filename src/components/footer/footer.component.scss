@@ -1,0 +1,90 @@
+#site-footer {
+    position: relative;
+    padding: 2em 0;
+    height: 50vh;
+    min-height: 28em;
+    text-align: center;
+
+    .footer-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .down-below {
+        position: relative;
+        padding-top: 2rem;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 120rem;
+            width: 200vw;
+            height: 120rem;
+            height: 200vw;
+            margin-left: -60rem;
+            margin-left: -100vw;
+            z-index: -1;
+            border-radius: 50%;
+            background-color: #e3e3e3;
+        }
+
+        .contact a {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .links {
+        margin: 2em 0;
+        padding: 0;
+        list-style-type: disc;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0 0.25em;
+        }
+
+        a {
+            display: block;
+            width: 1.5em;
+            height: 1.5em;
+            color: #222733;
+            font-size: 1.5em;
+            line-height: 1.5em;
+            text-align: center;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%),
+                0 1px 5px 0 rgb(0 0 0 / 20%);
+        }
+    }
+
+    .to-top {
+        display: block;
+        font-size: 2em;
+        line-height: inherit;
+        margin: 4rem auto 2rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        line-height: 4rem;
+        border: none;
+        background-color: white;
+        color: #222733;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    }
+}

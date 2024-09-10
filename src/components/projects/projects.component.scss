@@ -1,0 +1,49 @@
+section#projects {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0 1em;
+
+    .section-title {
+        align-self: center;
+        font-size: 3rem;
+    }
+}
+
+.modal-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .modal-title {
+        padding: 5px 5px 0 5px;
+    }
+
+    .code-links {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .source-button {
+            border: 1px solid black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 0.4rem;
+            border-radius: 5em;
+            margin: 0 0 0 10px;
+
+            i {
+                min-width: 20px;
+                text-align: center;
+            }
+
+            &:hover {
+                background-color: black;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.tech-container i {
+    font-size: 1.9em;
+}

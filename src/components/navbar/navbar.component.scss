@@ -1,0 +1,21 @@
+.site-header {
+    background-color: rgba($color: #161b22, $alpha: 0.9);
+}
+
+a.nav-link,
+a.navbar-brand {
+    color: black;
+    text-decoration: none;
+}
+
+a.nav-link.active {
+    color: #0a58ca;
+}
+
+.navbar {
+    transition: all 0.7s ease-out;
+
+    &.active {
+        background-color: rgba($color: #fefefe, $alpha: 0.9);
+    }
+}

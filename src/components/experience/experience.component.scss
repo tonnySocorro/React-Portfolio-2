@@ -1,0 +1,37 @@
+#experience-section {
+    padding: 5em 0;
+    background-color: #e3e3e3;
+
+    h2 {
+        text-align: center;
+        font-weight: 500;
+    }
+    .badge.experience-badge {
+        font-weight: 300;
+    }
+    .vertical-timeline-element-subtitle {
+        font-size: 1.3em;
+    }
+
+    .vertical-timeline-element-date {
+        color: #000;
+    }
+}
+
+@media (max-width: 1169px) {
+    .timeline-icon {
+        padding: 0 !important;
+        margin: 10px 8px !important;
+        font-size: 20px !important;
+        min-width: 25px !important;
+    }
+}
+/* Style all font awesome icons */
+.timeline-icon {
+    padding: 15px 0;
+    font-size: 30px;
+    min-width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
