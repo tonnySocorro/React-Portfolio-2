@@ -1,4 +1,4 @@
-# Eric's Portolio
+# Tonny's Portolio
 
 My personal portfolio page! Built with React and SASS.
 
