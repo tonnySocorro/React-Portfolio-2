@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23aaa20e.css",
+    "main.js": "/static/js/main.0a86f036.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/tonny_resume_sp.pdf": "/static/media/tonny_resume_sp.5ace2bb4e2ca6c08c9cd.pdf",
+    "static/media/bg.jpg": "/static/media/bg.d63990c097e5cc457fe7.jpg",
+    "static/media/rick1.webp": "/static/media/rick1.29acc9ce9dc3f0653b40.webp",
+    "static/media/rick2.webp": "/static/media/rick2.02ecfb794e0f6ed78c1e.webp",
+    "static/media/ultimo-bote.webp": "/static/media/ultimo-bote.a6a7165ad89900f0ee86.webp",
+    "static/media/tonny.jpg": "/static/media/tonny.d6291a91e4e68b18c675.jpg",
+    "static/media/coffee1.webp": "/static/media/coffee1.bd7a7cbfb05f5d5b57b9.webp",
+    "static/media/ultimo-bote3.webp": "/static/media/ultimo-bote3.660d6cd2bdfb2ab3819a.webp",
+    "static/media/gdrive1.webp": "/static/media/gdrive1.4ef1df746337a45fc1b7.webp",
+    "static/media/thumb_img.webp": "/static/media/thumb_img.8b59b993e94a5c9a0390.webp",
+    "static/media/gdrive2.webp": "/static/media/gdrive2.d22ae4dc941ea36c6c9e.webp",
+    "static/media/gitlab3.webp": "/static/media/gitlab3.90bd6f3a33ffa2cea5bc.webp",
+    "static/media/ultimo-bote2.webp": "/static/media/ultimo-bote2.7978b96994b799f3347d.webp",
+    "static/media/gitlab2.webp": "/static/media/gitlab2.59a5492f9cda3f87dfcb.webp",
+    "static/media/quotes2.webp": "/static/media/quotes2.6808b787003054e47e38.webp",
+    "static/media/quotes1.webp": "/static/media/quotes1.8ee050b23ff53ed09e9d.webp",
+    "index.html": "/index.html",
+    "main.23aaa20e.css.map": "/static/css/main.23aaa20e.css.map",
+    "main.0a86f036.js.map": "/static/js/main.0a86f036.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23aaa20e.css",
+    "static/js/main.0a86f036.js"
+  ]
+}
