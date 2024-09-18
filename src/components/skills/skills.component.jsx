@@ -3,6 +3,32 @@ import "./skills.component.scss";
 export default function Skills() {
     let skills = [
         {
+            name: "Java",
+            icon: "fab fa-java",
+        },
+        {
+            name: "Git",
+            icon: "fab fa-git-alt",
+        },
+        {
+            name: "python",
+            icon:  "fab fa-python",
+        },
+       
+        {
+            name: "Web Services",
+            icon: "fas fa-cogs",  // Icono para Web Services
+        },
+       
+        {
+            name: "Apache NiFi",
+            icon: "fas fa-project-diagram",  // Icono para Apache NiFi
+        },
+        {
+            name: "Amazon Web Services",
+            icon: "fab fa-aws",  // Icono para AWS
+        },
+        {
             name: "HTML",
             icon: "fab fa-html5",
         },
@@ -15,22 +41,15 @@ export default function Skills() {
             icon: "fab fa-js",
         },
         {
-            name: "PHP",
-            icon: "fab fa-php",
+            name: "MongoDB",
+            icon: "fas fa-leaf",  // Icono que simula el logo de MongoDB
         },
+        {
+            name: "PostgreSQL",
+            icon: "fas fa-database",  // Icono para bases de datos en general
+        }
        
-        {
-            name: "Java",
-            icon: "fab fa-java",
-        },
-        {
-            name: "Git",
-            icon: "fab fa-git-alt",
-        },
-        {
-            name: "python",
-            icon:  "fab fa-python",
-        },
+       
     ];
     return (
         <section id="skills-section">
